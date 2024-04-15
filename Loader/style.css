@@ -1,0 +1,43 @@
+:root{
+    --principal-color: #fff;
+    --blue-color: #1f22f1;
+}
+body{
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: var(--blue-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    position: relative;
+    width:19rem;
+    height:20px;
+    border-radius: 20px;
+    border: 2px solid var(--principal-color)
+}
+a{
+    text-decoration: none;
+    color: var(--principal-color);
+    margin-top: 8px;
+}
+.progress {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    border: 1px solid var(--principal-color);
+    border-radius: 20px;
+    background: var(--principal-color);
+    animation: degraded 2500ms infinite;
+}
+@keyframes degraded{
+    from{width: 0%;}
+    to{width: 100%;}
+}   
