@@ -1,6 +1,6 @@
 :root{
     --principal-color: #fff;
-    --blue-color: #1f22f1;
+    --blue-color: #3c3ff0e5;
 }
 body{
     overflow: hidden;
@@ -38,6 +38,10 @@ a{
     animation: degraded 2500ms infinite;
 }
 @keyframes degraded{
-    from{width: 0%;}
-    to{width: 100%;}
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
 }   
