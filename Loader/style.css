@@ -1,6 +1,6 @@
 :root{
     --principal-color: #fff;
-    --blue-color: #3c3ff0e5;
+    --blue-color: #27A782;
 }
 body{
     overflow: hidden;
@@ -15,6 +15,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.c-container{
+    color: var(--principal-color);
 }
 .loader{
     position: relative;
